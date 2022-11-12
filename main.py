@@ -2,7 +2,7 @@ import telegram.ext
 import os
 
 with open('token.txt', 'r') as f:
- TOKEN = 5792219212:AAFXXKJS7RyO1vnxT4OTJetgk6ro01pvLA8
+ TOKEN = f.read()
 
 def start(update, context):
     update.message.reply_text("Hello Bro.I am Bypass Bot.")
